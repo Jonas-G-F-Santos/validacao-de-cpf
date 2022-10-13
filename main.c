@@ -8,9 +8,9 @@ void main() {
 	
 	char cpf_str[15];
 	
-	// OBS: este tanto de variavéis se deve a ocorrência de bugs. 
+	// OBS: este tanto de variavÃ©is se deve a ocorrÃªncia de bugs. 
 	
-	//Então fui testando adicionar variaveis e definir e deixar os valores iniciais definidos, até que deu certo.
+	//EntÃ£o fui testando adicionar variaveis e definir e deixar os valores iniciais definidos, atÃ© que deu certo.
 	
 	int j, k = 0, dig1, dig2, len, cpf_num[10], resultado1 = 0, resultado2 = 0, sobra = 0, sobra2 = 0;
 	
@@ -62,10 +62,10 @@ void main() {
 	
 	printf("\n\n");
 	
-	if (cpf_num[9] == dig1 & cpf_num[10] == dig2){
-		printf("CPF Válido.");
+	if (cpf_num[9] == dig1 && cpf_num[10] == dig2){
+		printf("CPF VÃ¡lido.");
 	}else {
-		printf("CPF Inválido.");
+		printf("CPF InvÃ¡lido.");
 	}
 	
 	
