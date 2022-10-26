@@ -18,7 +18,7 @@ void main() {
 
 	for (j=0;j<=len;j++)
 	{
-		if (cpf_str[j] != '.' & cpf_str[j] != '-' & cpf_str[j] != ' ')
+		if (cpf_str[j] != '.' && cpf_str[j] != '-' && cpf_str[j] != ' ')
 		{
 			cpf_num[k] = cpf_str[j] - 48;
 			
